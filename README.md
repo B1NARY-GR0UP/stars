@@ -9,5 +9,6 @@
 | chanmutex      | [chanmutex](./chanmutex)           |
 | saltencryption | [saltencryption](./saltencryption) |
 | consistenthash | [consistenthash](./consistenthash) |
+| singleflight   | [singleflight](./singleflight)     |
 
 To Be Continue
