@@ -4,11 +4,12 @@
 
 ![stars](image/stars.png)
 
-| star           | code                               |
-|----------------|------------------------------------|
-| chanmutex      | [chanmutex](./chanmutex)           |
-| saltencryption | [saltencryption](./saltencryption) |
-| consistenthash | [consistenthash](./consistenthash) |
-| singleflight   | [singleflight](./singleflight)     |
+| star             | code                                   |
+|------------------|----------------------------------------|
+| chanmutex        | [chanmutex](./chanmutex)               |
+| saltencryption   | [saltencryption](./saltencryption)     |
+| consistenthash   | [consistenthash](./consistenthash)     |
+| singleflight     | [singleflight](./singleflight)         |
+| chantaskschedule | [chantaskschedule](./chantaskschedule) |
 
 To Be Continue
