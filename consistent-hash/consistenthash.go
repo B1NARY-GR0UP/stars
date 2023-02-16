@@ -50,5 +50,5 @@ func (h *Hash) Get(key string) string {
 }
 
 func (h *Hash) Name() string {
-	return "consistenthash"
+	return "consistent-hash"
 }
