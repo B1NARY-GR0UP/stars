@@ -42,6 +42,7 @@ go get github.com/B1NARY-GR0UP/stars
 |--------------|-----------------------------------|
 | chanmutex    | [chanmutex](sync/chanmutex)       |
 | singleflight | [singleflight](sync/singleflight) |
+| once         | [once](sync/once)                 |
 
 ## License
 
