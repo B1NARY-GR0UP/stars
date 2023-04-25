@@ -2,9 +2,7 @@
 
 > Every star has its own story.
 
-<p>
-<img src="https://github.com/B1NARY-GR0UP/stars/blob/main/images/stars.png" width="500" alt="stars"/>
-</p>
+![stars](images/stars.png)
 
 STARS is a component library for Go.
 
