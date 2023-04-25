@@ -27,8 +27,8 @@ func New() *UnionFind {
 	}
 }
 
-func (uf *UnionFind) Init(n int) {
-	for i := 0; i < n; i++ {
+func (uf *UnionFind) Init() {
+	for i := 0; i < len(uf.Pre); i++ {
 		uf.Pre[i] = i
 		uf.Rank[i] = 1
 	}
