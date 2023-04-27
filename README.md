@@ -40,6 +40,7 @@ go get github.com/B1NARY-GR0UP/stars
 |---------------|----------------------------------------|
 | chanmutex     | [chanmutex](sync/chanmutex.go)         |
 | reentrantlock | [reentrantlock](sync/reentrantlock.go) |
+| mutexinfo     | [mutexinfo](sync/mutexinfo.go)         |
 | singleflight  | [singleflight](sync/singleflight.go)   |
 | once          | [once](sync/once.go)                   |
 
