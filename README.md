@@ -36,11 +36,12 @@ go get github.com/B1NARY-GR0UP/stars
 
 ### Sync
 
-| star         | code                              |
-|--------------|-----------------------------------|
-| chanmutex    | [chanmutex](sync/chanmutex)       |
-| singleflight | [singleflight](sync/singleflight) |
-| once         | [once](sync/once)                 |
+| star          | code                                   |
+|---------------|----------------------------------------|
+| chanmutex     | [chanmutex](sync/chanmutex.go)         |
+| reentrantlock | [reentrantlock](sync/reentrantlock.go) |
+| singleflight  | [singleflight](sync/singleflight.go)   |
+| once          | [once](sync/once.go)                   |
 
 ## License
 

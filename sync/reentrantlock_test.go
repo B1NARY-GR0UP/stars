@@ -13,34 +13,32 @@
 // limitations under the License.
 //
 
-package once
+package sync
 
 import (
 	"sync"
-	"sync/atomic"
+	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-type Once struct {
-	done uint32
-	m    sync.Mutex
-}
-
-func (o *Once) Do(f func() error) error {
-	if atomic.LoadUint32(&o.done) == 1 {
-		return nil
+func TestReentrantLock(t *testing.T) {
+	var l ReentrantLock
+	var count int
+	var wg sync.WaitGroup
+	wg.Add(10)
+	for i := 0; i < 10; i++ {
+		go func() {
+			for j := 0; j < 10000; j++ {
+				l.Lock()
+				l.Lock()
+				count++
+				l.Unlock()
+				l.Unlock()
+			}
+			wg.Done()
+		}()
 	}
-	return o.doSlow(f)
-}
-
-func (o *Once) doSlow(f func() error) error {
-	o.m.Lock()
-	defer o.m.Unlock()
-	var err error
-	if o.done == 0 {
-		err = f()
-		if err == nil {
-			atomic.StoreUint32(&o.done, 1)
-		}
-	}
-	return err
+	wg.Wait()
+	assert.Equal(t, 100000, count)
 }

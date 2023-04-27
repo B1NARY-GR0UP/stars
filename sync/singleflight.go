@@ -13,7 +13,7 @@
 // limitations under the License.
 //
 
-package singleflight
+package sync
 
 import "sync"
 
