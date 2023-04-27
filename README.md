@@ -28,12 +28,6 @@ go get github.com/B1NARY-GR0UP/stars
 | hashtable | [hashtable](datastructure/hashtable) |
 | unionfind | [unionfind](datastructure/unionfind) |
 
-### Distributed
-
-| star      | code                               |
-|-----------|------------------------------------|
-| mapreduce | [mapreduce](distributed/mapreduce) |
-
 ### Sync
 
 | star          | code                                   |
@@ -43,6 +37,12 @@ go get github.com/B1NARY-GR0UP/stars
 | mutexinfo     | [mutexinfo](sync/mutexinfo.go)         |
 | singleflight  | [singleflight](sync/singleflight.go)   |
 | once          | [once](sync/once.go)                   |
+
+### Other
+
+| star      | code                         |
+|-----------|------------------------------|
+| mapreduce | [mapreduce](other/mapreduce) |
 
 ## License
 
