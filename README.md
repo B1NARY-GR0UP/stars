@@ -25,6 +25,7 @@ go get github.com/B1NARY-GR0UP/stars
 
 | star      | code                                 |
 |-----------|--------------------------------------|
+| arset     | [arset](datastructure/arset)         |
 | hashtable | [hashtable](datastructure/hashtable) |
 | list      | [list](datastructure/list)           |
 | lldeque   | [lldeque](datastructure/lldeque)     |
