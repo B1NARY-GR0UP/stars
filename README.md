@@ -27,6 +27,7 @@ go get github.com/B1NARY-GR0UP/stars
 |-----------|--------------------------------------|
 | hashtable | [hashtable](datastructure/hashtable) |
 | list      | [list](datastructure/list)           |
+| lldeque   | [lldeque](datastructure/lldeque)     |
 | unionfind | [unionfind](datastructure/unionfind) |
 
 ### Sync
