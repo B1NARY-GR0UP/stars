@@ -26,6 +26,7 @@ go get github.com/B1NARY-GR0UP/stars
 | star      | code                                 |
 |-----------|--------------------------------------|
 | hashtable | [hashtable](datastructure/hashtable) |
+| list      | [list](datastructure/list)           |
 | unionfind | [unionfind](datastructure/unionfind) |
 
 ### Sync
@@ -33,10 +34,11 @@ go get github.com/B1NARY-GR0UP/stars
 | star          | code                                   |
 |---------------|----------------------------------------|
 | chanmutex     | [chanmutex](sync/chanmutex.go)         |
-| reentrantlock | [reentrantlock](sync/reentrantlock.go) |
 | mutexinfo     | [mutexinfo](sync/mutexinfo.go)         |
-| singleflight  | [singleflight](sync/singleflight.go)   |
 | once          | [once](sync/once.go)                   |
+| queue         | [queue](sync/queue.go)                 |
+| reentrantlock | [reentrantlock](sync/reentrantlock.go) |
+| singleflight  | [singleflight](sync/singleflight.go)   |
 
 ### Other
 
